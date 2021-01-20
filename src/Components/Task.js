@@ -1,5 +1,5 @@
 import React from 'react'
-import { ListGroup, ListGroupItem, Badge } from 'reactstrap';
+import { ListGroupItem, Badge } from 'reactstrap';
 const Status = ({ done = false }) => {
     if (done) {
         return <Badge pill color="success">Completed</Badge>
